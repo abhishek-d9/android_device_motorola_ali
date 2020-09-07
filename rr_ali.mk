@@ -22,9 +22,9 @@ $(call inherit-product, vendor/motorola/ali/ali-vendor.mk)
 $(call inherit-product, device/motorola/ali/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
-
+# Inherit some common Resurrection Remix stuff.
+IS_PHONE := true
+$(call inherit-product, vendor/rr/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Overlays
@@ -36,12 +36,13 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-PRODUCT_NAME := revengeos_ali
+PRODUCT_NAME := rr_ali
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ali
 PRODUCT_MODEL := Moto G6
@@ -57,9 +58,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/ali/ali:8.1.0/OPPS28.85-13-2/d04a4:user/release-keys
 TARGET_VENDOR := motorola
-
-# RevengeOS
-IS_PHONE := true
-REVENGEOS_BUILDTYPE := OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
-
