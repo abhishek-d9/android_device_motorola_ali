@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common Resurrection Remix stuff.
 IS_PHONE := true
-$(call inherit-product, vendor/rr/config/common.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Overlays
