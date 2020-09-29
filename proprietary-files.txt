@@ -684,6 +684,7 @@ vendor/lib64/com.qualcomm.qti.uceservice@2.0.so|fbb7c92b958485b516910d5c02514667
 vendor/lib64/com.qualcomm.qti.uceservice@2.1.so|c64d704432f9fd2cab33f102d0eb9acb2e3a7900
 vendor/lib64/lib-imscmservice.so|06e34cc89bb3c082127d60d744a1af2808254b75
 vendor/lib64/lib-imsdpl.so|2d72160dd07389083662d4f0f84d23ceb33c7195
+vendor/lib64/lib-imsSDP.so
 vendor/lib64/lib-imsqimf.so|589bc1a1bdddac7aace20571a833236d7908e655
 vendor/lib64/lib-imsrcs-v2.so|4cdab1393fbd18cc1db1316f2a0e8fe6a942cf4e
 vendor/lib64/lib-imsrcsbaseimpl.so|4c8a8684e73dd6d147455c244f792e25505131e6
@@ -751,4 +752,3 @@ vendor/lib/hw/power.qcom.so
 vendor/lib64/hw/android.hardware.power@1.0-impl.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.qcom.so
-
