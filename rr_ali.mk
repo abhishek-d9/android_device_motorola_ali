@@ -58,3 +58,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/ali/ali:8.1.0/OPPS28.85-13-2/d04a4:user/release-keys
 TARGET_VENDOR := motorola
+
+#Resurrection Remix
+RR_BUILDTYPE=Official
