@@ -61,3 +61,4 @@ TARGET_VENDOR := motorola
 
 #Resurrection Remix
 RR_BUILDTYPE=Official
+BUILD_RR_WALLPAPERS:= true
